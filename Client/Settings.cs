@@ -12,7 +12,7 @@ namespace Client
     {
 #if DEBUG
         public static string Por_ts = "8848";
-        public static string Hos_ts = "127.0.0.1";
+        public static string Hos_ts = "192.168.125.22";
         public static string Ver_sion = "1.0.7";
         public static string In_stall = "false";
         public static string Install_Folder = "AppData";
