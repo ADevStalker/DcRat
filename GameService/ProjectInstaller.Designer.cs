@@ -39,9 +39,9 @@
             // 
             // gameInstaller
             // 
-            this.gameInstaller.Description = "Game Service";
-            this.gameInstaller.DisplayName = "Game Service";
-            this.gameInstaller.ServiceName = "Game Service";
+            this.gameInstaller.Description = "This is gaming services";
+            this.gameInstaller.DisplayName = "Gaming Services";
+            this.gameInstaller.ServiceName = "Gaming Services";
             this.gameInstaller.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller

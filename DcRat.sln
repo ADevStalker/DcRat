@@ -59,6 +59,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discord", "Plugin\Discord\D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameService", "GameService\GameService.csproj", "{CAA3165C-2857-4F1E-9D9E-58046B04BF3F}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Service Setup", "Service Setup\Service Setup.vdproj", "{F01AA73F-6819-45B1-B0D1-10AF2E3D85AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModiatorServer", "ModiatorServer\ModiatorServer.csproj", "{C6D73613-A7F0-4349-8504-141B0BF2DB57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -283,6 +287,18 @@ Global
 		{CAA3165C-2857-4F1E-9D9E-58046B04BF3F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CAA3165C-2857-4F1E-9D9E-58046B04BF3F}.Release|x86.ActiveCfg = Release|Any CPU
 		{CAA3165C-2857-4F1E-9D9E-58046B04BF3F}.Release|x86.Build.0 = Release|Any CPU
+		{F01AA73F-6819-45B1-B0D1-10AF2E3D85AE}.Debug|Any CPU.ActiveCfg = Debug
+		{F01AA73F-6819-45B1-B0D1-10AF2E3D85AE}.Debug|x86.ActiveCfg = Debug
+		{F01AA73F-6819-45B1-B0D1-10AF2E3D85AE}.Release|Any CPU.ActiveCfg = Release
+		{F01AA73F-6819-45B1-B0D1-10AF2E3D85AE}.Release|x86.ActiveCfg = Release
+		{C6D73613-A7F0-4349-8504-141B0BF2DB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D73613-A7F0-4349-8504-141B0BF2DB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D73613-A7F0-4349-8504-141B0BF2DB57}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C6D73613-A7F0-4349-8504-141B0BF2DB57}.Debug|x86.Build.0 = Debug|Any CPU
+		{C6D73613-A7F0-4349-8504-141B0BF2DB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D73613-A7F0-4349-8504-141B0BF2DB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D73613-A7F0-4349-8504-141B0BF2DB57}.Release|x86.ActiveCfg = Release|Any CPU
+		{C6D73613-A7F0-4349-8504-141B0BF2DB57}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -32,7 +32,7 @@
             // GameService
             // 
             this.AutoLog = false;
-            this.ServiceName = "Game Service";
+            this.ServiceName = "dwargsvc";
 
         }
 
